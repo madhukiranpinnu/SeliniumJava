@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="testParamaeters">
+    <test name="mk">
+        <parameter name="Value" value="madhu"></parameter>
+        <classes>
+            <class name="TestNGDemo.ParrametersDemo.TestParametersDemo"></class>
+        </classes>
+    </test>
+</suite>

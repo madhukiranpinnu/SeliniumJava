@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="mk">
+    <parameter name="lo" value="lo"></parameter>
+    <test name="mk">
+        <parameter name="lo" value="li"></parameter>
+        <classes>
+            <class name="TestNGDemo.ParrametersDemo.TestAndSuite"></class>
+        </classes>
+    </test>
+</suite>

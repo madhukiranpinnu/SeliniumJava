@@ -15,7 +15,7 @@ public class Start030JSEScrollIntoView {
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         driver.get("https://www.hyrtutorials.com/p/basic-controls.html");
         WebElement clear=driver.findElement(By.id("clearbtn"));
-        ((JavascriptExecutor)driver).executeScript("arguments[0].scrollIntoView();",clear);
+        ((JavascriptExecutor)driver).executeScript("arguments[0].scrollIntoView(true);",clear);
         Thread.sleep(4000);
         driver.quit();
     }
